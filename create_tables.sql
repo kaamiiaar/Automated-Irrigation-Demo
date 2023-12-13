@@ -1,0 +1,16 @@
+CREATE TABLE weather (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    temp VARCHAR(10) NOT NULL,
+    hum VARCHAR(10) NOT NULL
+);
+
+CREATE TABLE soilMoisture (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    moist VARCHAR(10) NOT NULL
+);
+
+CREATE TABLE switch (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    status ENUM('on', 'off') NOT NULL
+);
+
