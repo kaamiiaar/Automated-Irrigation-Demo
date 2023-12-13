@@ -12,7 +12,7 @@ This project demonstrates an automated irrigation system that utilizes weather a
 
 To set up the ESP8266 board with sensors:
 
-- Hardware Assembly: Connect the temperature, humidity, and soil moisture sensors to the ESP8266 board. Attach the relay module for controlling the irrigation system.
+- Hardware Assembly: Connect the temperature, humidity, and soil moisture sensors to the ESP8266 board. Attach the relay module for controlling the irrigation system. The relay will then be connected to a water pump/valve to initiate the irrigation.
 - Software Setup: Flash the ESP8266 with the provided firmware. Ensure it is configured to connect to your Wi-Fi network.
 - Database Connection: Set up the cloud database and ensure the ESP8266 board is programmed to send data to this database.
 
