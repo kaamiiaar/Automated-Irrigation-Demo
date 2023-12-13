@@ -10,7 +10,7 @@ This project demonstrates an automated irrigation system that utilizes weather a
 #### Data Collection
 Leveraging ESP8266 for real-time data acquisition from various sensors.
 #### Cloud Integration
-Sending sensor data to a cloud-based database (000webhost.com is used as host to view the demo file; localhost could be used alternatively).
+Sending sensor data to a cloud-based database (000webhost.com is used as host to view the demo file).
 #### Automated Irrigation 
 Triggering irrigation processes when soil moisture falls below a set threshold.
 
@@ -19,7 +19,7 @@ To set up the ESP8266 board with sensors:
 
 - Hardware Assembly: Connect the temperature, humidity, and soil moisture sensors to the ESP8266 board. Attach the relay module for controlling the irrigation system.
 - Software Setup: Flash the ESP8266 with the provided firmware. Ensure it is configured to connect to your Wi-Fi network.
-- Database Connection: Set up the cloud database (specify the database type you're using) and ensure the ESP8266 board is programmed to send data to this database.
+- Database Connection: Set up the cloud database and ensure the ESP8266 board is programmed to send data to this database.
 
 ## Usage
 - Monitoring Data: Check the cloud database for real-time data from the sensors.
