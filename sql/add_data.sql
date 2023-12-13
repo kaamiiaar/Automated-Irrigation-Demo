@@ -1,9 +1,9 @@
 
 -- Insert data into the weather table
-INSERT INTO weather (temp, hum) VALUES ('25', '60');
-INSERT INTO weather (temp, hum) VALUES ('28', '55');
-INSERT INTO weather (temp, hum) VALUES ('30', '50');
-INSERT INTO weather (temp, hum) VALUES ('30', '65');
+INSERT INTO weather (id, temp, hum) VALUES (1, '25', '60');
+INSERT INTO weather (id, temp, hum) VALUES (2, '28', '55');
+INSERT INTO weather (id, temp, hum) VALUES (3, '30', '50');
+INSERT INTO weather (id, temp, hum) VALUES (4, '30', '65');
 
 -- Insert data into the soilMoisture table (id, moist, min_thresh, max_thresh)
 INSERT INTO soilMoisture (id, moist) values (1, 300);
