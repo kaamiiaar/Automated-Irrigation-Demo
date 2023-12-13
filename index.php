@@ -262,7 +262,7 @@ if ($result->num_rows > 0) {
 
 <!-- Load the Google Maps JavaScript API -->
 <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPiPdRBYmxtnJmpR2v0CrLPl8P-LkOba4&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=ADD API KEY HERE&callback=initMap">
 </script>
 <h5 style="text-align: center; margin-top:2px">Townsville, Queensland</h2>
 
