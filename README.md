@@ -8,7 +8,7 @@ This project demonstrates an automated irrigation system that utilizes weather a
 
 
 ## Setup
-<img width="670" alt="image" src="https://github.com/kaamiiaar/Automated-Irrigation-Demo/assets/47272408/c612a95e-5213-4b01-99c2-141b180d814b">
+<img width="895" alt="image" src="https://github.com/kaamiiaar/Automated-Irrigation-Demo/assets/47272408/231530da-c85f-4143-9c2a-87375ac0f2b5">
 
 To set up the ESP8266 board with sensors:
 
