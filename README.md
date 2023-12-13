@@ -34,7 +34,7 @@ Triggering irrigation processes when soil moisture falls below a set threshold.
 Developed in one week, this demo has significant scope for enhancements.
 #### To Do:
 - Improve the arduino code to include multiple sensors and switches.
-- Test the code and UI after adding the soil moisture sensor. Currently only tested on one temperature and humidity sensor (DHT11).
+- Test the code and UI after adding the soil moisture sensor. Currently only tested on one temperature and humidity sensor (DHT11) and one relay module.
 - Improve the security of API requests to prevent SQL injection and other vulnerabilities.
 - Investigate the potential of integrating a LoRaWAN module onto the ESP8266-12F board. This is essential in agricultural settings.
 
