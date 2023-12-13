@@ -21,7 +21,11 @@ Detailed instructions on setting up the ESP8266 board with sensors and connectin
 Guidelines on operating the system, adjusting thresholds, and interpreting data.
 
 ## Potential for Improvement
-Developed in one week, this demo has significant scope for enhancements in efficiency, data accuracy, and scalability.
+Developed in one week, this demo has significant scope for enhancements.
+#### To Do:
+- Improve the arduino code to include multiple sensors and switches.
+- Test the code and UI after adding the soil moisture sensor. Currently only tested on one temperature and humidity sensor (DHT11).
+- Improve the security of API requests to avoid SQL injection and other vulnerabilities.
 
 ## Contact
 For more information, please contact kamyar1karimi@gmail.com.
