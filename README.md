@@ -15,17 +15,25 @@ Sending sensor data to a cloud-based database (000webhost.com is used as host to
 Triggering irrigation processes when soil moisture falls below a set threshold.
 
 ## Installation
-Detailed instructions on setting up the ESP8266 board with sensors and connecting to the cloud database.
+To set up the ESP8266 board with sensors:
+
+- Hardware Assembly: Connect the temperature, humidity, and soil moisture sensors to the ESP8266 board. Attach the relay module for controlling the irrigation system.
+- Software Setup: Flash the ESP8266 with the provided firmware. Ensure it is configured to connect to your Wi-Fi network.
+- Database Connection: Set up the cloud database (specify the database type you're using) and ensure the ESP8266 board is programmed to send data to this database.
 
 ## Usage
-Guidelines on operating the system, adjusting thresholds, and interpreting data.
+- Monitoring Data: Check the cloud database for real-time data from the sensors.
+- Adjusting Thresholds: Modify the soil moisture threshold settings in the system's configuration to suit your specific irrigation needs.
+- System Operation: The system will automatically initiate irrigation when soil moisture levels fall below the set threshold.
+- Data Interpretation: Regularly review the environmental data to make informed decisions about irrigation schedules and potential system improvements.
 
 ## Potential for Improvement
 Developed in one week, this demo has significant scope for enhancements.
 #### To Do:
 - Improve the arduino code to include multiple sensors and switches.
 - Test the code and UI after adding the soil moisture sensor. Currently only tested on one temperature and humidity sensor (DHT11).
-- Improve the security of API requests to avoid SQL injection and other vulnerabilities.
+- Improve the security of API requests to prevent SQL injection and other vulnerabilities.
+- Investigate the potential of integrating a LoRaWAN module onto the ESP8266-12F board. This is essential in agricultural settings.
 
 ## Contact
 For more information, please contact kamyar1karimi@gmail.com.
