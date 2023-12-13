@@ -1,4 +1,4 @@
-<img width="674" alt="image" src="https://github.com/kaamiiaar/Automated-Irrigation-Demo/assets/47272408/b04b3255-4431-4814-97bf-99f3c605907e"># Automated-Irrigation-Demo
+# Automated-Irrigation-Demo
 A demo made for IoT Engineering position at Aglantis and Cisco-La Trobe Centre for AI and IoT
 
 Main webpage: http://kaamiiaar-iot.000webhostapp.com/Demo/index.php
@@ -15,7 +15,7 @@ Sending sensor data to a cloud-based database (000webhost.com is used as host to
 Triggering irrigation processes when soil moisture falls below a set threshold.
 
 ## Setup
-<img width="674" alt="image" src="https://github.com/kaamiiaar/Automated-Irrigation-Demo/assets/47272408/61b21a43-33bf-4310-b461-85ef10cb0d4f">
+<img width="670" alt="image" src="https://github.com/kaamiiaar/Automated-Irrigation-Demo/assets/47272408/c612a95e-5213-4b01-99c2-141b180d814b">
 
 To set up the ESP8266 board with sensors:
 
