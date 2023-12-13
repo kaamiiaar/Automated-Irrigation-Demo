@@ -25,9 +25,10 @@ Sending sensor data to a cloud-based database (000webhost.com is used as host to
 Triggering irrigation processes when soil moisture falls below a set threshold.
 
 ## Usage
-- Monitoring Data: Check the cloud database for real-time data from the sensors.
+- Monitoring Data: Check the user interface for real-time data from the sensors.
 - Adjusting Thresholds: Modify the soil moisture threshold settings in the system's configuration to suit your specific irrigation needs.
 - System Operation: The system will automatically initiate irrigation when soil moisture levels fall below the set threshold.
+- Manual Irrigation Activation: A form is created to manually activate irrigation for a specific area.
 - Data Interpretation: Regularly review the environmental data to make informed decisions about irrigation schedules and potential system improvements.
 
 ## Potential for Improvement
