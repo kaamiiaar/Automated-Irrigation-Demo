@@ -1,8 +1,7 @@
 # Automated-Irrigation-Demo
 A demo made for IoT Engineering position at Aglantis and Cisco-La Trobe Centre for AI and IoT
-Main webpage: 
 
-http://kaamiiaar-iot.000webhostapp.com/Demo/index.php
+Main webpage: http://kaamiiaar-iot.000webhostapp.com/Demo/index.php
 
 ## Description
 This project demonstrates an automated irrigation system that utilizes weather and soil moisture data from sensors connected to an ESP8266 board. The system captures environmental data, sends it to a cloud database, and automates irrigation based on soil moisture levels. The project integrates temperature, humidity, and soil moisture sensors, along with a relay module.
