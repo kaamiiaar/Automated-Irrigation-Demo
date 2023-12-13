@@ -14,7 +14,7 @@ Sending sensor data to a cloud-based database (000webhost.com is used as host to
 #### Automated Irrigation 
 Triggering irrigation processes when soil moisture falls below a set threshold.
 
-## Set Up
+## Setup
 To set up the ESP8266 board with sensors:
 
 - Hardware Assembly: Connect the temperature, humidity, and soil moisture sensors to the ESP8266 board. Attach the relay module for controlling the irrigation system.
