@@ -6,13 +6,6 @@ Main webpage: http://kaamiiaar-iot.000webhostapp.com/Demo/index.php
 ## Description
 This project demonstrates an automated irrigation system that utilizes weather and soil moisture data from sensors connected to an ESP8266 board. The system captures environmental data, sends it to a cloud database, and automates irrigation based on soil moisture levels. The project integrates temperature, humidity, and soil moisture sensors, along with a relay module which can be connected to a pump or valve to initiate irrigation.
 
-## Features
-#### Data Collection
-Leveraging ESP8266 for real-time data acquisition from various sensors.
-#### Cloud Integration
-Sending sensor data to a cloud-based database (000webhost.com is used as host to view the demo file).
-#### Automated Irrigation 
-Triggering irrigation processes when soil moisture falls below a set threshold.
 
 ## Setup
 <img width="670" alt="image" src="https://github.com/kaamiiaar/Automated-Irrigation-Demo/assets/47272408/c612a95e-5213-4b01-99c2-141b180d814b">
@@ -22,6 +15,14 @@ To set up the ESP8266 board with sensors:
 - Hardware Assembly: Connect the temperature, humidity, and soil moisture sensors to the ESP8266 board. Attach the relay module for controlling the irrigation system.
 - Software Setup: Flash the ESP8266 with the provided firmware. Ensure it is configured to connect to your Wi-Fi network.
 - Database Connection: Set up the cloud database and ensure the ESP8266 board is programmed to send data to this database.
+
+## Features
+#### Data Collection
+Leveraging ESP8266 for real-time data acquisition from various sensors.
+#### Cloud Integration
+Sending sensor data to a cloud-based database (000webhost.com is used as host to view the demo file).
+#### Automated Irrigation 
+Triggering irrigation processes when soil moisture falls below a set threshold.
 
 ## Usage
 - Monitoring Data: Check the cloud database for real-time data from the sensors.
